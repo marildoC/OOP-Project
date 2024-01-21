@@ -1,0 +1,39 @@
+//La Class
+
+package application;
+
+import java.util.Random;
+
+public class La {
+    private int human;
+    private int computer;
+    private int result;
+    private Random random = new Random();
+
+    public int play() {
+        this.computer = random.nextInt(3);
+        return computer;
+    }
+
+    public int getComputer() {
+        return computer;
+    }
+
+    public void setHuman(int human) {
+        this.human = human;
+    }
+
+    public int checkWinner() {
+        int comp = play();
+        
+        if (human == 0 && comp == 1 || human == 1 && comp == 2 || human == 2 && comp == 0) {
+            result = 0; // Lose
+        } else if (human == comp) {
+            result = 1; // Tie
+        } else {
+            result = 2; // Win
+        }
+
+        return result;
+    }
+}
