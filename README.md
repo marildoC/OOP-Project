@@ -1,4 +1,5 @@
 Project Trio: Calculator, Rock-Paper-Scissors, Tic-Tac-Toe
+
 Welcome to our Project Trio repository! In this collaborative effort, we've developed three distinct projects that showcase our coding skills and creativity. Each project serves a unique purpose and can be enjoyed independently. Let's take a quick overview:
 
 Calculator
